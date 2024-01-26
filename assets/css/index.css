@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar*/
+
+.nav-link:hover{
+    color: #90604c !important;
+}
+
+.navbar{
+background-color: #e6c2bf !important;
+}
+
+.nav-logo{
+    height: 30px;
+    margin-right: 26px;
+    margin-top: 4px;
+    
+}
+.navbar-nav .nav-item:first-child .nav-link{
+    margin-left: 20px;
+}
+
+.navbar-text a.nav-link{
+    margin-right: 20px;
+}
+.navbar-toggler{
+    line-height: 1;
+    color: #90604c !important;
+    background-color: #90604c;
+    background: #90604c;
+}
+.navbar-nav .nav-link{
+    color: #90604c !important;
+}
+.navbar-nav .nav-link:hover{
+    color: #90604c !important;
+}
+.nav-link{
+    color: #90604c;
+    font-weight: 500%;
+}
+nav.bg-body-tertiary{
+    background-color:#004940 ;
+}
+@media only screen and (max-width: 991px) {
+    .nav-logo{
+        display: none;
+        
+    }
+}
+/*fin navbar*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav div.container3{
+    background-color: #004940;
+    width: 100%;
+}
+nav div.container3 input{
+    width: 320px;
+}
+nav div.container3 button{
+    background-color: #e4d5b7;
+    color: #827968;
+    border: none;
+}
+nav div.container3 button:hover{
+    background-color:#827968;
+    color: #ebeae7;
+}
+/* --- Sección 1 -----*/
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 400px;
+}
+.left{
+    background-color: #665554;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #ebeae7;
+    padding: 80px;
+    gap: 20px;
+    
+}
+.right{
+    background-image: url("../img/herramientasnails.jpeg");
+    background-size: cover;
+    background-position: center;
+        background: black;
+        overflow: hidden;
+        
+    
+    img {
+       object-fit: cover;
+       opacity: 0.4;
+       height: -webkit-fill-available;
+    }
+}
+.left h1{
+    color:#ebeae7 ;
+    font-size: 3.2rem;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.left a{
+    background: #e4d5b7;
+    color: #827968;
+    font-weight: bold;
+    padding: 4px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.left a:hover{
+    background-color: #827968;
+    color: #ebeae7;
+}
+.left h2{
+    font-size: 20px;
+    font-weight: 100;
+    word-spacing: 5px;
+    margin-top: 40px;
+}
+.left h3{
+    font-size: 16px;
+}
+
+.left p {
+    color:inherit; 
+    width:70%;
+    font-size: 14px; 
+   
+} 
+
+
+  
+  
