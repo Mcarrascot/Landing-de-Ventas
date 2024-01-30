@@ -1,22 +1,65 @@
 *{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
     margin: 0;
     padding: 0;
 }
 
-/*navbar*/
-
-.nav-link:hover{
-    color: #90604c !important;
+/* -- SECCIÓN HEADER -- */
+section {
+  overflow: hidden;
+  padding: 80px 0;
+  background-color: #FCF1F0;
 }
 
+.section-header {
+  text-align: center;
+  padding-bottom: 50px;
+  
+  h1{
+    font-weight: 700;
+    color: #686765;
+  }
+}
+
+
+/* --- NAVBAR --- */
+
 .navbar{
-background-color: #e6c2bf !important;
+background-color: #ED4D8B !important;
+}
+.navbar-toggler{
+  line-height: 1;
+  color: #fff !important;
+  background-color: #90604c;
+  background: #fff;
+}
+.navbar-nav .nav-link{
+  color: #FCF1F0 !important;
+}
+.navbar-nav .nav-link:hover{
+  color: #F8BF80 !important;
+}
+.nav-link{
+  color: #F8BF80;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .nav-logo{
-    height: 30px;
+    height: 50px;
     margin-right: 26px;
-    margin-top: 4px;
+  
+    
+}
+.nav-item{
+  align-self: center;
+  @media only screen and (max-width: 991px) {
+    align-self: start;
+    }
     
 }
 .navbar-nav .nav-item:first-child .nav-link{
@@ -26,59 +69,33 @@ background-color: #e6c2bf !important;
 .navbar-text a.nav-link{
     margin-right: 20px;
 }
-.navbar-toggler{
-    line-height: 1;
-    color: #90604c !important;
-    background-color: #90604c;
-    background: #90604c;
-}
-.navbar-nav .nav-link{
-    color: #90604c !important;
-}
-.navbar-nav .nav-link:hover{
-    color: #90604c !important;
-}
-.nav-link{
-    color: #90604c;
-    font-weight: 500%;
-}
-nav.bg-body-tertiary{
-    background-color:#004940 ;
-}
+
+
 @media only screen and (max-width: 991px) {
     .nav-logo{
         display: none;
         
     }
 }
-/*fin navbar*/
-
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+.nav-logo-celular{
+  height: 45px;
+  position: absolute;
+  right: 12px;
+  top: 4px;
 }
-
-nav div.container3{
-    background-color: #004940;
-    width: 100%;
+@media only screen and (min-width: 992px) {
+  .nav-logo-celular{
+      display: none;
+  }
 }
-nav div.container3 input{
-    width: 320px;
+#boton-login{
+  color: #FCF1F0;
+  border-color: #F8BF80;
+&:hover{
+  background-color: #FE9DD0;
 }
-nav div.container3 button{
-    background-color: #e4d5b7;
-    color: #827968;
-    border: none;
 }
-nav div.container3 button:hover{
-    background-color:#827968;
-    color: #ebeae7;
-}
-/* --- Sección 1 -----*/
-
+/* --- FIN NAVBAR --- */
 
 .contenedor{
     display: grid;
