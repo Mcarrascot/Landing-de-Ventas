@@ -146,7 +146,9 @@ background-color: #ED4D8B !important;
        height: -webkit-fill-available;
        width: -webkit-fill-available ;
        max-height: 800px;
-
+       @media (min-width: 815px) and (max-width: 1445px) {
+        max-height: none;
+      }
     }
 
     @media only screen and (max-width: 815px) {
