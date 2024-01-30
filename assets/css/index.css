@@ -204,4 +204,80 @@ background-color: #ED4D8B !important;
   }
 /*Fin Sección Sobre-Nosotros*/
   
-  
+  /*servicios*/
+.nuestros-servicios {
+background-color: #e6c2bf !important;
+}
+  .titulo2{
+    padding: 0 80px;
+    display:flex;
+   
+    justify-content: center;
+   
+    
+    color:var(--primary-dark);
+    
+    @media only screen and (min-width: 1024px) {
+      gap:80px;
+ }
+ @media only screen and (min-width: 768px) {
+  gap:40px;
+}
+@media only screen and (max-width: 767px) {
+  gap:40px;
+  display:grid;
+  padding: 0 30px;
+}
+}
+
+.services {
+    padding-top: 60px;
+    background-color: #e4d5b7;
+    margin:0;
+    h1{
+        margin: 0;
+    }
+}
+
+
+.card {
+    flex:1;
+    max-width: 300px;
+    min-width:200px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    padding: 0;
+}
+
+.card img.card-img-top {
+    aspect-ratio: 16/9;
+    width: 100%;
+    object-fit:cover;
+    object-position:center;
+    height: 250px;
+
+
+}
+
+.card a.card-link{
+    color: var(--primary-dark);
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform:uppercase;
+    padding-bottom: 8px;
+    display:block;
+
+}   
+
+.card a.card-link:hover{
+    text-decoration:underline;
+    cursor:pointer;
+
+}
+
+.card-text{
+    font-size: 18px;
+    color:#777;
+
+}
+ /*Fin Catálogo servicios*/
