@@ -104,7 +104,16 @@ background-color: #ED4D8B !important;
 }
 .contenedor{
    
+    button {
+      color: #FFF;
+      border-color: #ED4D8B;
     
+      
+      &:hover{
+        background-color: #ED4D8B;
+      }
+    }
+
     @media only screen and (min-width: 815px) {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -181,9 +190,9 @@ background-color: #ED4D8B !important;
 }
 
 .left p {
-    color:inherit; 
-    width:70%;
+    font-weight:600;
     font-size: 14px; 
+    color: #42413e;
    
 } 
 
