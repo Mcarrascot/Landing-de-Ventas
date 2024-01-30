@@ -4,8 +4,8 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* -- SECCIÓN HEADER -- */
@@ -60,7 +60,7 @@ background-color: #ED4D8B !important;
   @media only screen and (max-width: 991px) {
     align-self: start;
     }
-    
+
 }
 .navbar-nav .nav-item:first-child .nav-link{
     margin-left: 20px;
@@ -106,8 +106,8 @@ background-color: #ED4D8B !important;
    
     
     @media only screen and (min-width: 815px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
  }
 }
 .left{
@@ -144,7 +144,7 @@ background-color: #ED4D8B !important;
        display: none;
   }
     
-}
+} 
 
 .left h1{
     color:#42413e ;
@@ -203,8 +203,8 @@ background-color: #ED4D8B !important;
  }   
   }
 /*Fin Sección Sobre-Nosotros*/
-  
-  /*servicios*/
+
+  /*Catálogo servicios*/
 .nuestros-servicios {
 background-color: #e6c2bf !important;
 }
